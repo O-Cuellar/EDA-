@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compilar C",
+            "type": "shell",
+            "command": "gcc",
+            "args": ["-g", "/Documentos/FACULDADE/C/trabalhos/lista03/Questao01.c", "-o", "main"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
