@@ -1,9 +1,9 @@
 /*O que faz a função:
 int f(int a, int b) {
     if (b == 0) 
-    return a;  // Caso base: quando b é 0, o MDC é 'a'
+    return a; 
 else 
-    return f(b, a % b);  // Recursivamente chama a função com 'b' e 'a % b'
+    return f(b, a % b);  
 }
 E provar que funciona em um caso real*/
 
